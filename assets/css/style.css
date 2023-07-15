@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.contactos {
+  width: 25vw;
+  border-right: 1.5px solid #bec1bb;
+}
+
+.chat {
+  width: 75vw;
+  background-color: #e8ebe4;
+}
+
+.descripcion {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1.5px solid #bec1bb;
+  padding: 0.8em;
+  padding-left: 1.5em;
+}
+
+.ft-perfil {
+  border-radius: 40px;
+  border: 1.5px solid #bec1bb;
+}
+
+.nombre {
+  font-size: 1rem;
+  color: #1b1f21;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10px;
+}
+.estado {
+  font-size: 0.8rem;
+  padding: 2px 0px 0px 10px;
+  color: #828485;
+  font-family: "Open Sans", sans-serif;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 0.8em;
+  width: 7em;
+  color: #828485;
+  font-size: 1.3rem;
+}
+
+.boton {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 3em 2em 3em;
+}
+
+.btn {
+  background-color: #a491d2;
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  padding: 1em 2em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #cdc3e6;
+}
+
+.btn:focus {
+  background-color: #bec1bb;
+}
+
+.perfiles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1.5px solid #bec1bb;
+  padding: 0.7em;
+  padding-left: 1.5em;
+}
+
+.ft-perfiles {
+  border-radius: 50px;
+  border: 1.5px solid #bec1bb;
+}
+
+.bajada-nombre {
+  font-size: 0.8rem;
+  padding: 2px 0px 0px 10px;
+  color: #1b1f21;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cont-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12em;
+}
+
+.cont-tx {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 10em 0px 10em;
+  text-align: center;
+}
+
+.cont-tx h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.cont-tx p {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 1em;
+}
